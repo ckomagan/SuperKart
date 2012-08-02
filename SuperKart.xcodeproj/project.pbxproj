@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0DDB0EE15CA106A003EF207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0ED15CA106A003EF207 /* UIKit.framework */; };
+		E0DDB0F015CA106A003EF207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0EF15CA106A003EF207 /* Foundation.framework */; };
+		E0DDB0F215CA106A003EF207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0F115CA106A003EF207 /* CoreGraphics.framework */; };
+		E0DDB0F815CA106A003EF207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0DDB0F615CA106A003EF207 /* InfoPlist.strings */; };
+		E0DDB0FA15CA106A003EF207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDB0F915CA106A003EF207 /* main.m */; };
+		E0DDB0FE15CA106A003EF207 /* SuperKartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDB0FD15CA106A003EF207 /* SuperKartAppDelegate.m */; };
+		E0DDB10115CA106A003EF207 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DDB0FF15CA106A003EF207 /* MainStoryboard_iPhone.storyboard */; };
+		E0DDB10415CA106A003EF207 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DDB10215CA106A003EF207 /* MainStoryboard_iPad.storyboard */; };
+		E0DDB10715CA106A003EF207 /* SuperKartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDB10615CA106A003EF207 /* SuperKartViewController.m */; };
+		E0DDB10F15CA106A003EF207 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB10E15CA106A003EF207 /* SenTestingKit.framework */; };
+		E0DDB11015CA106A003EF207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0ED15CA106A003EF207 /* UIKit.framework */; };
+		E0DDB11115CA106A003EF207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0EF15CA106A003EF207 /* Foundation.framework */; };
+		E0DDB11915CA106A003EF207 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0DDB11715CA106A003EF207 /* InfoPlist.strings */; };
+		E0DDB11C15CA106A003EF207 /* SuperKartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDB11B15CA106A003EF207 /* SuperKartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0DDB11215CA106A003EF207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DDB0E015CA106A003EF207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DDB0E815CA106A003EF207;
+			remoteInfo = SuperKart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0DDB0E915CA106A003EF207 /* SuperKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DDB0ED15CA106A003EF207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0DDB0EF15CA106A003EF207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0DDB0F115CA106A003EF207 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0DDB0F515CA106A003EF207 /* SuperKart-Info.plist */ = {isa = PBXFileReference; path = "SuperKart-Info.plist"; sourceTree = "<group>"; };
+		E0DDB0F715CA106A003EF207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0DDB0F915CA106A003EF207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0DDB0FB15CA106A003EF207 /* SuperKart-Prefix.pch */ = {isa = PBXFileReference; path = "SuperKart-Prefix.pch"; sourceTree = "<group>"; };
+		E0DDB0FC15CA106A003EF207 /* SuperKartAppDelegate.h */ = {isa = PBXFileReference; path = SuperKartAppDelegate.h; sourceTree = "<group>"; };
+		E0DDB0FD15CA106A003EF207 /* SuperKartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperKartAppDelegate.m; sourceTree = "<group>"; };
+		E0DDB10015CA106A003EF207 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E0DDB10315CA106A003EF207 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E0DDB10515CA106A003EF207 /* SuperKartViewController.h */ = {isa = PBXFileReference; path = SuperKartViewController.h; sourceTree = "<group>"; };
+		E0DDB10615CA106A003EF207 /* SuperKartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperKartViewController.m; sourceTree = "<group>"; };
+		E0DDB10D15CA106A003EF207 /* SuperKartTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKartTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DDB10E15CA106A003EF207 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0DDB11615CA106A003EF207 /* SuperKartTests-Info.plist */ = {isa = PBXFileReference; path = "SuperKartTests-Info.plist"; sourceTree = "<group>"; };
+		E0DDB11815CA106A003EF207 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0DDB11A15CA106A003EF207 /* SuperKartTests.h */ = {isa = PBXFileReference; path = SuperKartTests.h; sourceTree = "<group>"; };
+		E0DDB11B15CA106A003EF207 /* SuperKartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperKartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0DDB0E615CA106A003EF207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB0EE15CA106A003EF207 /* UIKit.framework in Frameworks */,
+				E0DDB0F015CA106A003EF207 /* Foundation.framework in Frameworks */,
+				E0DDB0F215CA106A003EF207 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DDB10915CA106A003EF207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB10F15CA106A003EF207 /* SenTestingKit.framework in Frameworks */,
+				E0DDB11015CA106A003EF207 /* UIKit.framework in Frameworks */,
+				E0DDB11115CA106A003EF207 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0DDB0DE15CA106A003EF207 = {
+			isa = PBXGroup;
+			children = (
+				E0DDB0F315CA106A003EF207 /* SuperKart */,
+				E0DDB11415CA106A003EF207 /* SuperKartTests */,
+				E0DDB0EC15CA106A003EF207 /* Frameworks */,
+				E0DDB0EA15CA106A003EF207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DDB0EA15CA106A003EF207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB0E915CA106A003EF207 /* SuperKart.app */,
+				E0DDB10D15CA106A003EF207 /* SuperKartTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DDB0EC15CA106A003EF207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB0ED15CA106A003EF207 /* UIKit.framework */,
+				E0DDB0EF15CA106A003EF207 /* Foundation.framework */,
+				E0DDB0F115CA106A003EF207 /* CoreGraphics.framework */,
+				E0DDB10E15CA106A003EF207 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DDB0F315CA106A003EF207 /* SuperKart */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB0FC15CA106A003EF207 /* SuperKartAppDelegate.h */,
+				E0DDB0FD15CA106A003EF207 /* SuperKartAppDelegate.m */,
+				E0DDB0FF15CA106A003EF207 /* MainStoryboard_iPhone.storyboard */,
+				E0DDB10215CA106A003EF207 /* MainStoryboard_iPad.storyboard */,
+				E0DDB10515CA106A003EF207 /* SuperKartViewController.h */,
+				E0DDB10615CA106A003EF207 /* SuperKartViewController.m */,
+				E0DDB0F415CA106A003EF207 /* Supporting Files */,
+			);
+			path = SuperKart;
+			sourceTree = "<group>";
+		};
+		E0DDB0F415CA106A003EF207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB0F515CA106A003EF207 /* SuperKart-Info.plist */,
+				E0DDB0F615CA106A003EF207 /* InfoPlist.strings */,
+				E0DDB0F915CA106A003EF207 /* main.m */,
+				E0DDB0FB15CA106A003EF207 /* SuperKart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0DDB11415CA106A003EF207 /* SuperKartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB11A15CA106A003EF207 /* SuperKartTests.h */,
+				E0DDB11B15CA106A003EF207 /* SuperKartTests.m */,
+				E0DDB11515CA106A003EF207 /* Supporting Files */,
+			);
+			path = SuperKartTests;
+			sourceTree = "<group>";
+		};
+		E0DDB11515CA106A003EF207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDB11615CA106A003EF207 /* SuperKartTests-Info.plist */,
+				E0DDB11715CA106A003EF207 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0DDB0E815CA106A003EF207 /* SuperKart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DDB11F15CA106A003EF207 /* Build configuration list for PBXNativeTarget "SuperKart" */;
+			buildPhases = (
+				E0DDB0E515CA106A003EF207 /* Sources */,
+				E0DDB0E615CA106A003EF207 /* Frameworks */,
+				E0DDB0E715CA106A003EF207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperKart;
+			productName = SuperKart;
+			productReference = E0DDB0E915CA106A003EF207 /* SuperKart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0DDB10C15CA106A003EF207 /* SuperKartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DDB12215CA106A003EF207 /* Build configuration list for PBXNativeTarget "SuperKartTests" */;
+			buildPhases = (
+				E0DDB10815CA106A003EF207 /* Sources */,
+				E0DDB10915CA106A003EF207 /* Frameworks */,
+				E0DDB10A15CA106A003EF207 /* Resources */,
+				E0DDB10B15CA106A003EF207 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DDB11315CA106A003EF207 /* PBXTargetDependency */,
+			);
+			name = SuperKartTests;
+			productName = SuperKartTests;
+			productReference = E0DDB10D15CA106A003EF207 /* SuperKartTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0DDB0E015CA106A003EF207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0DDB0E315CA106A003EF207 /* Build configuration list for PBXProject "SuperKart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0DDB0DE15CA106A003EF207;
+			productRefGroup = E0DDB0EA15CA106A003EF207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0DDB0E815CA106A003EF207 /* SuperKart */,
+				E0DDB10C15CA106A003EF207 /* SuperKartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0DDB0E715CA106A003EF207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB0F815CA106A003EF207 /* InfoPlist.strings in Resources */,
+				E0DDB10115CA106A003EF207 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E0DDB10415CA106A003EF207 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DDB10A15CA106A003EF207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB11915CA106A003EF207 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0DDB10B15CA106A003EF207 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0DDB0E515CA106A003EF207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB0FA15CA106A003EF207 /* main.m in Sources */,
+				E0DDB0FE15CA106A003EF207 /* SuperKartAppDelegate.m in Sources */,
+				E0DDB10715CA106A003EF207 /* SuperKartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DDB10815CA106A003EF207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DDB11C15CA106A003EF207 /* SuperKartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0DDB11315CA106A003EF207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DDB0E815CA106A003EF207 /* SuperKart */;
+			targetProxy = E0DDB11215CA106A003EF207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0DDB0F615CA106A003EF207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DDB0F715CA106A003EF207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0DDB0FF15CA106A003EF207 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DDB10015CA106A003EF207 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E0DDB10215CA106A003EF207 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DDB10315CA106A003EF207 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E0DDB11715CA106A003EF207 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DDB11815CA106A003EF207 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0DDB11D15CA106A003EF207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0DDB11E15CA106A003EF207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0DDB12015CA106A003EF207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperKart/SuperKart-Prefix.pch";
+				INFOPLIST_FILE = "SuperKart/SuperKart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0DDB12115CA106A003EF207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperKart/SuperKart-Prefix.pch";
+				INFOPLIST_FILE = "SuperKart/SuperKart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E0DDB12315CA106A003EF207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperKart.app/SuperKart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperKart/SuperKart-Prefix.pch";
+				INFOPLIST_FILE = "SuperKartTests/SuperKartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E0DDB12415CA106A003EF207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SuperKart.app/SuperKart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperKart/SuperKart-Prefix.pch";
+				INFOPLIST_FILE = "SuperKartTests/SuperKartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0DDB0E315CA106A003EF207 /* Build configuration list for PBXProject "SuperKart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DDB11D15CA106A003EF207 /* Debug */,
+				E0DDB11E15CA106A003EF207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DDB11F15CA106A003EF207 /* Build configuration list for PBXNativeTarget "SuperKart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DDB12015CA106A003EF207 /* Debug */,
+				E0DDB12115CA106A003EF207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0DDB12215CA106A003EF207 /* Build configuration list for PBXNativeTarget "SuperKartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DDB12315CA106A003EF207 /* Debug */,
+				E0DDB12415CA106A003EF207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0DDB0E015CA106A003EF207 /* Project object */;
+}
