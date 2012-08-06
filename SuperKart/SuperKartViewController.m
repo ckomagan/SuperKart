@@ -7,8 +7,21 @@
 //
 
 #import "SuperKartViewController.h"
+#import "SearchItem.h"
+
+@interface SuperKartViewController()
+@end
 
 @implementation SuperKartViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,6 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    zipcode.delegate = self;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,12 +42,23 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    
+}
+
+-(IBAction)validateTextFields:(id)sender
+{
+    // make sure all fields are have something in them
+    if (zipcode.text.length  > 0) {
+        OK.enabled = YES;
+    }
+    else {
+        OK.enabled = NO;
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [OK setEnabled:NO];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -58,6 +83,44 @@
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
         return YES;
+    }
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string { 
+    return [string isEqualToString:@""] || 
+    ([string stringByTrimmingCharactersInSet:
+      [[NSCharacterSet decimalDigitCharacterSet] invertedSet]].length > 0);
+    
+    NSUInteger newLength = [textField.text length] + [string length] - range.length;
+    return (newLength > 5) ? NO : YES;
+}
+
+- (BOOL)isNumeric:(NSString *)input {
+    for (int i = 0; i < [input length]; i++) {
+        char c = [input characterAtIndex:i];
+        // Allow a leading '-' for negative integers
+        if (!((c == '-' && i == 0) || (c >= '0' && c <= '9'))) {
+            return NO;
+        }
+    }
+    return YES;
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"searchItem"]) {
+        SearchItem *searchItem = segue.destinationViewController;
+        
+        if ([zipcode.text isEqualToString:@""]) {
+            errorStatus.text = @"Please enter the zip.";
+            return;
+        }
+        if ([zipcode.text length] > 5) {
+            return;
+        }
+        
+        
+    searchItem.zip = zipcode.text;  
     }
 }
 

@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SuperKartAppDelegate : UIResponder <UIApplicationDelegate>
+@class SearchItem;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface SuperKartAppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+    SearchItem *viewController;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet SearchItem *viewController;
 
 @end

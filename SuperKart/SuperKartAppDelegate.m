@@ -7,10 +7,12 @@
 //
 
 #import "SuperKartAppDelegate.h"
+#import "SearchItem.h"
 
 @implementation SuperKartAppDelegate
 
-@synthesize window = _window;
+@synthesize window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

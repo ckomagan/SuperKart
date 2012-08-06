@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SuperKartViewController : UIViewController
+@interface SuperKartViewController : UIViewController {
+    IBOutlet UITextField *zipcode;
+    IBOutlet UILabel *errorStatus;
+    IBOutlet UIButton *OK;
+}
+
+-(IBAction)validateTextFields:(id)sender;
 
 @end
