@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E0A2CB5D15CCA2C10031685E /* elements.txt in Resources */ = {isa = PBXBuildFile; fileRef = E0A2CB5C15CCA2C10031685E /* elements.txt */; };
+		E0A2CB6515CF62530031685E /* OfferController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A2CB6315CF62520031685E /* OfferController.m */; };
+		E0A2CB6615CF62530031685E /* OfferController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A2CB6415CF62520031685E /* OfferController.xib */; };
 		E0DDB0EE15CA106A003EF207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0ED15CA106A003EF207 /* UIKit.framework */; };
 		E0DDB0F015CA106A003EF207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0EF15CA106A003EF207 /* Foundation.framework */; };
 		E0DDB0F215CA106A003EF207 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDB0F115CA106A003EF207 /* CoreGraphics.framework */; };
@@ -38,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		E0A2CB5C15CCA2C10031685E /* elements.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = elements.txt; sourceTree = "<group>"; };
+		E0A2CB6215CF62520031685E /* OfferController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferController.h; sourceTree = "<group>"; };
+		E0A2CB6315CF62520031685E /* OfferController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferController.m; sourceTree = "<group>"; };
+		E0A2CB6415CF62520031685E /* OfferController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferController.xib; sourceTree = "<group>"; };
 		E0DDB0E915CA106A003EF207 /* SuperKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DDB0ED15CA106A003EF207 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0DDB0EF15CA106A003EF207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,6 +135,9 @@
 				E0DDB10615CA106A003EF207 /* SuperKartViewController.m */,
 				E0DDB0F415CA106A003EF207 /* Supporting Files */,
 				E0A2CB5C15CCA2C10031685E /* elements.txt */,
+				E0A2CB6215CF62520031685E /* OfferController.h */,
+				E0A2CB6315CF62520031685E /* OfferController.m */,
+				E0A2CB6415CF62520031685E /* OfferController.xib */,
 			);
 			path = SuperKart;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				E0DDB10415CA106A003EF207 /* MainStoryboard_iPad.storyboard in Resources */,
 				E0DDB12F15CA2737003EF207 /* Items.rtf in Resources */,
 				E0A2CB5D15CCA2C10031685E /* elements.txt in Resources */,
+				E0A2CB6615CF62530031685E /* OfferController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				E0DDB0FE15CA106A003EF207 /* SuperKartAppDelegate.m in Sources */,
 				E0DDB10715CA106A003EF207 /* SuperKartViewController.m in Sources */,
 				E0DDB12815CA1628003EF207 /* SearchItem.m in Sources */,
+				E0A2CB6515CF62530031685E /* OfferController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

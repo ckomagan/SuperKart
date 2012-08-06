@@ -118,8 +118,6 @@
         if ([zipcode.text length] > 5) {
             return;
         }
-        
-        
     searchItem.zip = zipcode.text;  
     }
 }
